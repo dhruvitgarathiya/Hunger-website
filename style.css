@@ -1,0 +1,236 @@
+body{
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(to left top,black,rgb(186, 253, 2));
+  }
+
+
+
+
+
+
+
+
+.online{
+    color: rgba(247, 152, 152, 0.767);
+    text-align: center;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+    font-size: 400%;
+    font-weight: 300;
+    
+}
+
+.food{
+    color:rgba(255, 153, 153, 0.767);
+    text-align: center;
+    margin-top: 0px;
+    padding-top: 0px; 
+}
+
+.ref{   
+    border: solid 1px rgb(42, 247, 1);
+    background-color: black;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    border-top-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+
+}
+
+h1:hover{
+    color: azure;
+}
+
+h2:hover{
+    color: azure;
+}
+
+.navb{
+    background-color:rgb(129, 124, 117)  ;
+    overflow: hidden;
+    text-align: center;
+    text-shadow: 1px;
+    margin-top: 2px;
+
+}
+
+
+.abc{
+    border: dotted 2px whitesmoke;
+    color: rgba(124, 241, 6, 0.952);
+    text-align: center;
+    padding: 14px 16px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 17px;
+    
+}
+
+.abc:hover{
+    background-color: azure;
+    color: brown;
+}
+
+.container{
+    border: solid 3px brown;
+     background-image: url("https://img.freepik.com/free-photo/black-concrete-wall_24972-1046.jpg");
+     height: 740px;
+     width: 100%;
+     font-family:fantasy;
+     font size: 60px;;
+     align-content: center;
+     
+     margin: 30px;
+     
+     
+     
+
+}
+
+.container:hover{
+    color: red;
+    
+}
+
+.items{
+    display:flex;
+    justify-items: center;
+   
+    flex-direction: row;
+    width: 526px;
+    height: 317px;
+    text-align: center;
+   
+}
+
+.item1{
+    margin-left: 50%;
+    margin-right: 50%;
+    border: solid rgb(147, 241, 70) 7px;
+    border-block-end-style: unset;
+    border-top-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+    border-top-right-radius: 50%;
+    border-bottom-left-radius: 50%;
+    margin-top: 20px;
+
+}
+
+.item2{
+    margin-right:50%;
+    margin-left: 50%;
+    border: solid rgb(147, 241, 70) 7px;
+    border-block-end-style: unset;
+    border-top-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+    border-top-right-radius: 50%;
+    border-bottom-left-radius: 50%;
+
+    
+
+}
+
+.centr{ font-family:monospace;
+    font-size: 34px;
+    font-weight: 400;
+    text-align: left;
+    
+    
+        
+    }
+
+#head2{
+    text-align: center;
+    font-family: cursive;
+    font-size: 25pxpx;
+    font-weight: 200;
+    border: solid 5px brown ;
+    color: rgb(250, 246, 45);
+    background-color: rgba(0, 0, 0, 0.521);
+}    
+
+    
+    .fcontainer {
+      display:flex;
+
+     
+      
+    }
+    .image {
+      width:300px;
+      height:300px;
+      background:grey;
+      background-size:cover;
+      background-position:center;
+      transition:0.3s;
+    }
+    .image1 {
+      background-image:url('https://images.duckduckgo.com/iu/?u=http%3A%2F%2Fsimplyalgerian.files.wordpress.com%2F2011%2F09%2Fyahni.jpg&f=1');
+    }
+    .image2 {
+      background-image:url('https://images.duckduckgo.com/iu/?u=https%3A%2F%2Fpublic-media.smithsonianmag.com%2Ffiler%2Fb1%2Fc9%2Fb1c98cf3-e91b-44ca-8354-46078c0ad26c%2Ftunisian-fish.jpg&f=1');
+    }
+    .image3 {
+      background-image:url('https://images.duckduckgo.com/iu/?u=https%3A%2F%2Fs-media-cache-ak0.pinimg.com%2F736x%2F46%2Faa%2F72%2F46aa728c96e206ed218a0beb8df2a1c3.jpg&f=1');
+    }
+    .image4 {
+      background-image:url('https://images.duckduckgo.com/iu/?u=http%3A%2F%2Fwww.luxembourg.public.lu%2Fpictures%2Fphotos%2Fle-grand-duche-se-presente%2Fgastronomie%2Fcuisine-luxembourgeoise%2Fkniddelen-199614_n.jpg&f=1');
+    }
+    .image5 {
+      background-image:url('https://images.duckduckgo.com/iu/?u=https%3A%2F%2Fs-media-cache-ak0.pinimg.com%2F736x%2F5c%2F07%2F01%2F5c070152f5814aec188ff71d8b390b31.jpg&f=1');
+    }
+    
+    .image:hover {
+      transition:0.3s;
+      width:600px;
+    }   
+
+
+
+
+
+
+
+   
+    
+
+
+
+
+
+
+#happy{ 
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 200px;
+    margin-right: 200px;
+    text-align: center;
+    font-family:fantasy
+    font-size: large;
+    color: chartreuse;
+    background-color: rgba(0, 0, 0, 0.253);
+    border: solid 4px brown;
+    border-radius: 4% 4% 5% 5% ;
+
+
+
+}
+
+.alg{
+    display:flex;
+    flex-direction: row;
+}
+
+.alg input{
+    margin-top: 15px;
+    width: 15%;
+}
+
+.alg label{
+    width: 100%;
+    padding: 12px;
+}
+
+textarea{
+    width: 100%;
+}
